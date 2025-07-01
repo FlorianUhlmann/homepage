@@ -7,8 +7,13 @@ const About: React.FC = () => {
       <header className="flex items-center space-x-6 mb-8">
         <img src="https://placehold.co/128x128/60a5fa/white?text=Avatar" alt="avatar" className="w-32 h-32 rounded-full border-4 border-gray-600" />
         <div>
-          <h1 className="text-4xl font-bold text-white">Your Name</h1>
-          <p className="text-lg text-gray-400">your-github-username</p>
+          <h1 className="text-4xl font-bold text-white">Florian Uhlmann</h1>
+          <p className="text-lg text-gray-400 flex items-center">
+            <a href="https://github.com/FlorianUhlmann" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-white transition-colors duration-200">
+              <img src="/github.svg" alt="GitHub" className="h-5 w-5 mr-2" />
+              github.com/FlorianUhlmann
+            </a>
+          </p>
         </div>
       </header>
       <div>
