@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+// src/App.tsx
+import { useState } from 'react';
 import { UserIcon, ProjectIcon, BlogIcon } from './components/Icons';
 import About from './components/About';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
-import './App.css';
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');
