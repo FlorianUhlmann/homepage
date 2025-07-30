@@ -5,7 +5,7 @@ const About: React.FC = () => {
   return (
     <div>
       <header className="flex items-center space-x-6 mb-8">
-        <img src="https://placehold.co/128x128/60a5fa/white?text=Avatar" alt="avatar" className="w-32 h-32 rounded-full border-4 border-gray-600" />
+        <img src="profile.png" alt="avatar" className="w-32 h-32 rounded-full border-4 border-gray-600" />
         <div>
           <h1 className="text-4xl font-bold text-white">Florian Uhlmann</h1>
           <p className="text-lg text-gray-400 flex items-center">
