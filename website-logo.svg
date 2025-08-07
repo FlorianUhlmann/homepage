@@ -1,0 +1,32 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Royal Blue Background -->
+  <rect x="0" y="0" width="60" height="60" fill="#4169E1"/>
+
+  <!-- White Shadow for "FU" -->
+  <text
+    x="30"
+    y="45"
+    font-family="monospace"
+    font-size="50px"
+    fill="white"
+    text-anchor="middle"
+    dx="2"
+    dy="2"
+  >
+    FU
+  </text>
+
+  <!-- Yellow "FU" text with stroke for boldness and artistic touch -->
+  <text
+    x="30"
+    y="45"
+    font-family="monospace"
+    font-size="50px"
+    fill="yellow"
+    stroke="yellow"
+    stroke-width="1.5px"
+    text-anchor="middle"
+  >
+    FU
+  </text>
+</svg>
