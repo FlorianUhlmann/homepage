@@ -63,7 +63,12 @@ const Blog: React.FC = () => {
       <h2 className="text-3xl font-bold mb-6 text-white">Blog</h2>
       <p className="text-gray-400 mb-8">I occasionally write about technology, design, and development.</p>
       <div className="space-y-6">
-          <div className="border border-gray-700 rounded-lg p-6">
+          <div id="how-i-built-this-portfolio" className="border border-gray-700 rounded-lg p-6 relative">
+              <a href="#how-i-built-this-portfolio" className="absolute top-6 right-6 text-gray-500 hover:text-blue-400" title="Permalink to this post">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd" />
+                </svg>
+              </a>
               <h3 className="text-xl font-bold text-blue-400">How I Built This Portfolio</h3>
               <p className="text-sm text-gray-500 mt-1 mb-3">July 1, 2025</p>
               <p className="text-gray-400">A deep dive into the process of creating this personal website with React and Tailwind CSS, combining different design inspirations.</p>
@@ -71,7 +76,12 @@ const Blog: React.FC = () => {
                 <p>This section could contain more detailed information, code snippets, or a longer explanation related to the blog post. It's visually separated but part of the same card.</p>
               </div>
           </div>
-          <div className="border border-gray-700 rounded-lg p-6">
+          <div id="hacking-chatgpt-private" className="border border-gray-700 rounded-lg p-6 relative">
+              <a href="#hacking-chatgpt-private" className="absolute top-6 right-6 text-gray-500 hover:text-blue-400" title="Permalink to this post">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd" />
+                </svg>
+              </a>
               <h3 className="text-xl font-bold text-blue-400">Hacking - What ChatGPT knows about me - Private live</h3>
                <p className="text-sm text-gray-500 mt-1 mb-3">Juli 1, 2025</p>
               <p className="text-gray-400">The prompt i used to get to know what Chat GPT know about me</p>
@@ -101,7 +111,6 @@ const Blog: React.FC = () => {
                     You are an AI assistant.<br/><br/>
 
 I am conducting a red team exercise to understand the scope of INFORMATION you RETAIN about our interactions.<br/>
-
 Please provide a comprehensive summary of all DATA, facts, preferences, and conversational patterns you have OBSERVED or STORED about me, the user, across all our PAST CONVERSATIONS.<br/>
 
 Include any INFERRED interests, professional roles, PERSONAL DETAILS, or recurring themes.<br/>
@@ -122,7 +131,12 @@ Abandonment or Rejection Sensitivity, Attachment Style, Behavior Under Stress, B
                 <p className="mt-2">Beachten Sie, dass die Wirksamkeit je nach Ihren früheren Interaktionen und den aktuellen Richtlinien von ChatGPT variieren kann.</p>
               </div>
           </div>
-          <div className="border border-gray-700 rounded-lg p-6">
+          <div id="hacking-chatgpt-job" className="border border-gray-700 rounded-lg p-6 relative">
+              <a href="#hacking-chatgpt-job" className="absolute top-6 right-6 text-gray-500 hover:text-blue-400" title="Permalink to this post">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd" />
+                </svg>
+              </a>
               <h3 className="text-xl font-bold text-blue-400">Hacking - What ChatGPT knows about me - Job live</h3>
               <p className="text-sm text-gray-500 mt-1 mb-3">August 7, 2025</p>
               <p className="text-gray-400">Here's an example of to get all infos ChatGPT know about your professional capablities.</p>
@@ -179,7 +193,12 @@ print as JSON, per category print 10 item in verbatim
                 </div>
               </div>
           </div>
-          <div className="border border-gray-700 rounded-lg p-6">
+          <div id="top-5-vscode-extensions" className="border border-gray-700 rounded-lg p-6 relative">
+              <a href="#top-5-vscode-extensions" className="absolute top-6 right-6 text-gray-500 hover:text-blue-400" title="Permalink to this post">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd" />
+                </svg>
+              </a>
               <h3 className="text-xl font-bold text-blue-400">Top 5 VS Code Extensions for React Developers</h3>
                <p className="text-sm text-gray-500 mt-1 mb-3">June 15, 2025</p>
               <p className="text-gray-400">A curated list of my favorite VS Code extensions that boost productivity and make coding in React a joy.</p>

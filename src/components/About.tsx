@@ -20,21 +20,22 @@ const About: React.FC = () => {
         <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
         <p className="text-gray-400 text-lg leading-relaxed">
         Florian, AI Developer. <br/>
-My roots are in medical physics and software engineering.<br/>
+with roots in medical physics and software engineering, i strive to solve problems<br/>
+Now I'm love with GenAI 🤖❤️
 I build AI bots that help people reflect on personal topics – 24/7.<br/>
 I work with vector databases, LLMs, transcript analysis, and precise prompt engineering.<br/>
 <br/><br/>
 My focus is on long-term memory in AI agents.<br/>
-I develop systems that understand, remember, and support – an extension to a good coach.<br/>
-Currently at Cherrish, I am building personalized agents with a memory layer:<br/>
+I develop systems that understand, remember, and support people– an extension to a good old coach.<br/> 
+Currently at <a href="https://cherrish.one" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>Cherrish</a>, building personalized agents with a memory layer:<br/>
 They assist people in relationships, dating, and family life.<br/>
-They create spaces for real connection and personal growth.<br/>
+For real connection and personal growth.<br/>
 <br/><br/>
-My goal: to create AI that builds long-term trust and enables personal development.<br/>
-I believe people can learn to use bots consciously and with self-awareness – for themselves and their relationships and finally....for us all.<br/><br/>
+My goal 🏁 : to create AI that builds long-term connection and enables personal development.<br/>
+I believe people can learn to use GenAI - Bots - consciously and with self-awareness – for themselves and their relationships and finally....for us all.<br/><br/>
 
-In the long run, I see huge potential in prevention, mental health, and relational medicine.<br/>
-
+In the long run, I see huge potential in prevention, mental health, and relational medicine...and of course the regular businesses efficency <br/>
+<br/>
 I’m Florian – an AI nerd with a heart for humans.<br/>
 Technology that strengthens relationships. AI that listens. For a more human future.🚀
         </p>
